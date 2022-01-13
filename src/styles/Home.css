@@ -1,3 +1,42 @@
+.container{
+    width: 50%;
+    height: 70%;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
 .scrambled-word{
-   color: blue;
+    font-size: 45px;
+   color: rgba(46, 46, 236, 0.74);
+}
+
+.text{
+    font-size: 30px;
+}
+
+.score{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blocks-container{
+    margin: 20px 10px 20px 10px;
+    display: flex;
+}
+.blocks-container span:last-child{
+    background-color: #ffb74d
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: rgb(77, 185, 86);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(22, 22, 22);;
 }
